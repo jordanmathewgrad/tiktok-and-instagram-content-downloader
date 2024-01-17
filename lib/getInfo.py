@@ -1,5 +1,5 @@
 def getList()->list:
-    with open("../data/data.txt") as f: return [item.strip() for item in f.read().split('\n')]
+    with open("/Applications/Github (JMGrad)/tiktok-and-instagram-content-downloader/data/data.txt") as f: return [item.strip() for item in f.read().split('\n')]
 
 def getLinkDict()->dict:
     values={"tiktok":[],"instagram":[]}
